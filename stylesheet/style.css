@@ -1,51 +1,41 @@
-body{
-  background: #aaa;
+#header {
+    background: #4267b2;
+    color: white;
 }
-h1{
-  font-style: times;
-  font-size: 21px;
-  position: absolute;
-  margin-top: 80px;
-  margin-left: 400px;
-}
-h2{
-  font-style: times;
-  font-size: 30px;
-  position: absolute;
-  padding: 50px;
-  margin-top: 20px;
-  text-align: center;
-}
-h5{
-  font-family: 'Roboto', sans-serif;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 550px;
-}
-.first{
-  height: 200px;
-  width: 1080px;
-  margin: 0 auto;
-  background-color: rgba(226, 45, 27, 0.97);
-  color: white;
-}
-.second{
-  height: 200px;
-  width: 1080px;
-  margin: 0 auto;
-  background-color: rgba(251, 251, 251, 1);
-  color: black;
-}
-.third{
-  height: 200px;
-  width: 1080px;
-  margin: 0 auto;
-  background-color: rgb(9, 157, 46);
-  color: white;
-}
-footer{
-  width: auto;
-  height: 50px;
-  background: black;
-  color: white
-}
+  #header a {
+      color: white;
+  }
+  #header .dropdown li a {
+      color: black;
+  }
+  #header .navbar-toggle span {
+    background: white;
+  }
+  #header ul .glyphicon {
+      font-size: 18px;
+  }
+  #header input[type=text] {
+    border: 0px Solid Black;
+    padding: 5px;
+
+    border-radius: 0px;
+  }
+  #header btn {
+    border: 0px Solid Black;
+    padding: 5px;
+    border-radius: 0px;
+  }
+#wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #main,
+  #menu,
+  #sidebar {
+    height: 600px;
+    background-color: #e9ebee;
+  }
+  #wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
