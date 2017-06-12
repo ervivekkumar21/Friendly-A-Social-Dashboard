@@ -1,29 +1,52 @@
 #header {
-    background: #4267b2;
+    background: #3b5998;
     color: white;
+    font-size: 14px;
+    height: 30px;
+
 }
   #header a {
       color: white;
   }
+  #header a:hover{
+    color: gray;
+  }
   #header .dropdown li a {
       color: black;
+  }
+  #header .nav>li>a{
+    padding: 10px;
   }
   #header .navbar-toggle span {
     background: white;
   }
+  #header .line{
+    color: rgb(24, 23, 23);
+    padding: 8px;
+
+  }
   #header ul .glyphicon {
-      font-size: 18px;
+      font-size: 20px;
   }
   #header input[type=text] {
     border: 0px Solid Black;
-    padding: 5px;
-
+    padding: 6px;
+    width: 330px;
+    height: auto;
     border-radius: 0px;
+    border-radius: 3px 0 0 3px;
   }
-  #header btn {
+  #header .search {
     border: 0px Solid Black;
-    padding: 5px;
+    width: 50px;
+    margin-left: -5px;
+    height: auto;
     border-radius: 0px;
+    border-radius: 0 3px 3px 0;
+  }
+  #header .pp {
+    width: 25px;
+    height: 25px;
   }
 #wrapper {
     margin-top: 16px;
