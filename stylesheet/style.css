@@ -106,7 +106,6 @@
   #menu #more a:hover{
     text-decoration: underline;
   }
-
   #screate a{
     font-size: 10px;
     color: #3b5998;
@@ -114,3 +113,22 @@
   #screate a:hover{
     text-decoration: underline;
   }
+
+  .panel-body .glyphicon {
+      margin-left: 10px;
+      margin-right: 4px;
+  }
+    .text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+  display: none;
+
+}
