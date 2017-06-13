@@ -44,7 +44,7 @@
     border-radius: 0px;
     border-radius: 0 3px 3px 0;
   }
-  #header .pp {
+  .pp {
     width: 25px;
     height: 25px;
   }
@@ -56,9 +56,61 @@
   #menu,
   #sidebar {
     height: 600px;
-    background-color: #e9ebee;
+    background-color: #e9ebdd;
+    border-radius: 5px;
+    padding: 10px;
   }
   #wrapper {
     margin-top: 16px;
     margin-bottom: 16px;
+  }
+  .list-heading {
+      padding: 20px 15px 0 15px;
+      font-size: 11px;
+      text-shadow: 2px 2px 2px 2px gray;
+  }
+  #header .Sbadge{
+    background: #1a2973;
+    color: White;
+  }
+  #menu li:hover{
+    background: white;
+    color: gray;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .focus{
+    background: white;
+    border-radius: 20px;
+    color: gray;
+    font-weight: bold;
+  }
+  #menu .Sbadge{
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+    padding: 5px;
+    float: right;
+    font-size: 10px;
+  }
+  #menu a{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(35, 34, 36);
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+  }
+  #menu #more a {
+    color: #3b5998;
+  }
+  #menu #more a:hover{
+    text-decoration: underline;
+  }
+
+  #screate a{
+    font-size: 10px;
+    color: #3b5998;
+  }
+  #screate a:hover{
+    text-decoration: underline;
   }

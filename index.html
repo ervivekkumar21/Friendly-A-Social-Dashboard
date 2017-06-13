@@ -19,6 +19,8 @@
       <script src="bootstrap-3.3.7\js\bootstrap.min.js"></script>
       <!-- Optional theme -->
       <link rel="stylesheet" href="bootstrap-3.3.7\css\bootstrap-theme.min.css">
+      <!-- Font-Awsome Connecting Link -->
+      <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
 
       <!--google-fonts
       font-family: 'Metal Mania', cursive;
@@ -67,7 +69,7 @@
                       <li title="Vivek Kumar"><a href="#"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"></a></li>
                       <li title="Vivek Kumar"><a href="#">Vivek</a></li>
                       <li class="line">|</li>
-                      <li title="Home"><a href="#">Home</a></li>
+                      <li title="Home"><a href="#">Home<span class="badge Sbadge">9</span></a></li>
                       <li><span style="padding-left :20px;"></span></li>
                       <li title="Friends"><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
                       <li title="Massage"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
@@ -75,13 +77,19 @@
                       <li><span style="padding-left :10px;"></span></li>
                       <li title="Help"><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log Out<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">Pages</a></li>
+                          <li><a href="#">Groups</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
+                          <li><a href="#">Crete Ads</a></li>
+                          <li><a href="#">Crete Page</a></li>
+                          <li><a href="#">Crete Group</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Activity Log</a></li>
+                          <li><a href="#">Settings</a></li>
+                          <li><a href="#">Log Out</a></li>
                         </ul>
                       </li>
                       <li><span style="padding-left :60px;"></span></li>
@@ -92,10 +100,43 @@
         </header>
   <!-- header Ends Here -->
 
-          <div class="container-fluid" id="wrapper">
+          <div class="container" id="wrapper">
           <div class="row">
-            <div class="col-md-2"><div id="menu"></div></div>
-            <div class="col-md-7"><div id="main"></div></div>
+            <div class="col-md-3">
+              <div id="menu">
+                <ul class="nav nav-pills nav-stacked">
+                  <li role="presentation"><a href="#"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture">&nbsp Vivek Kumar</a></li>
+                  <li role="presentation" class="focus"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp News Feed<span class="badge Sbadge"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp Messenger<span class="badge Sbadge">5</span></a></li>
+                </ul>
+                <P class="list-heading">SHORTCUTS</P>
+                <ul class="nav nav-pills nav-stacked">
+                  <li role="presentation"><a href="#"><i class="fa fa-venus-double" aria-hidden="true"></i>&nbsp RIMTian's<span class="badge Sbadge">35</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-mortar-board" aria-hidden="true"></i>&nbsp College Life<span class="badge Sbadge">0</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-code" aria-hidden="true"></i>&nbsp Coder Community<span class="badge Sbadge">11,249</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>&nbsp CSE Experts<span class="badge Sbadge">84</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-bank" aria-hidden="true"></i>&nbsp AcadView Front-end<span class="badge Sbadge">30</span></a></li>
+                  <li role="presentation" id="more"><a href="#"><span class="caret"></span>&nbsp See More</a></li>
+                </ul>
+                <p class="list-heading">EXPLORE</p>
+                <ul class="nav nav-pills nav-stacked">
+                  <li role="presentation"><a href="#"><i class="fa fa-save" aria-hidden="true"></i>&nbsp Saved<span class="badge Sbadge">11</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp Events<span class="badge Sbadge">0</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-group" aria-hidden="true"></i>&nbsp Groups<span class="badge Sbadge">7</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-pagelines" aria-hidden="true"></i>&nbsp Pages<span class="badge Sbadge">2</span></a></li>
+                  <li role="presentation"><a href="#"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp Friend Lists<span class="badge Sbadge">637</span></a></li>
+                  <li role="presentation" id="more"><a href="#"><span class="caret"></span>&nbsp See More</a></li>
+                </ul>
+                <p class="list-heading">CREATE</p>
+                <ul class="nav nav-pills" id="screate">
+                  <li role="presentation"><a href="#">Ad</a></li>
+                  <li role="presentation"><a href="#">Page</a></li>
+                  <li role="presentation"><a href="#">Group</a></li>
+                  <li role="presentation"><a href="#">Event</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6"><div id="main"></div></div>
             <div class="col-md-3"><div id="sidebar"></div></div>
           </div>
         </div>
