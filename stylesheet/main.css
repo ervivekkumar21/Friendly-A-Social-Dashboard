@@ -161,3 +161,39 @@
   display: inline;
   width: 49%;
 }
+
+.rightside{
+  padding: 10px;
+  display: block;
+  background: white;
+  border-radius: 3px;
+}
+.rightside .fa {
+  padding-right: 5px;
+  font-size: 15px;
+}
+#tranding #rightsideicon{
+  padding: 0px;
+  color: #3b5998;
+  float: right;
+}
+#tranding #trandingbody{
+  margin-top: 10px;
+}
+#tranding a{
+  padding: 3px;
+  margin: 0px;
+}
+#sidebar #myCarousel img{
+  height: 150px;
+  width: 100%;
+}
+.likepage{
+  width: 110px;
+  height: 24px;
+  background: #ced0d4;
+  border: 1px solid gray;
+  color: black;
+  border-radius: 3px;
+  margin-top: 5px;
+}
