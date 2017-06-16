@@ -1,9 +1,9 @@
+/*Css For header Part of Website*/
 #header {
     background: #3b5998;
     color: white;
     font-size: 14px;
     height: 30px;
-
 }
   #header a {
       color: white;
@@ -23,31 +23,40 @@
   #header .line{
     color: rgb(24, 23, 23);
     padding: 8px;
-
   }
   #header ul .glyphicon {
       font-size: 20px;
+      color:rgb(42, 41, 42) ;
+  }
+  #header ul .glyphicon:hover {
+      font-size: 20px;
+      color: black;
   }
   #header input[type=text] {
     border: 0px Solid Black;
     padding: 6px;
-    width: 330px;
-    height: auto;
+    width: 380px;
+    height: 25px;
     border-radius: 0px;
     border-radius: 3px 0 0 3px;
   }
   #header .search {
     border: 0px Solid Black;
     width: 50px;
+    height: 25px;
     margin-left: -5px;
-    height: auto;
     border-radius: 0px;
     border-radius: 0 3px 3px 0;
   }
-  .pp {
+  /*header Section Css End Here*/
+
+  /*Class For Styling Profile Pic Of User*/
+  .ProfilePic {
     width: 25px;
     height: 25px;
   }
+
+  /*Main Body Css Start From Here*/
 #wrapper {
     margin-top: 16px;
     margin-bottom: 16px;
@@ -70,7 +79,7 @@
       text-shadow: 2px 2px 2px 2px gray;
   }
   #header .Sbadge{
-    background: #1a2973;
+    background: ##3b5998;
     color: White;
   }
   #menu li:hover{
@@ -106,11 +115,11 @@
   #menu #more a:hover{
     text-decoration: underline;
   }
-  #screate a{
+  #create_section a{
     font-size: 10px;
     color: #3b5998;
   }
-  #screate a:hover{
+  #create_section a:hover{
     text-decoration: underline;
   }
 
@@ -130,5 +139,25 @@
 }
 #main::-webkit-scrollbar {
   display: none;
+}
+#newpost ul li .glyphicon {
+    font-size: 15px;
+    padding: 5px;
+    color:#3b5998;
+}
+#newpost a:hover {
+    color: #3b5998;
+    background: White;
+}
+#newpost ul li .glyphicon:hover {
+    color:White;
+}
+#newpost a:hover {
+    color: white;
+    background: #3b5998;
+}
 
+.postimage{
+  display: inline;
+  width: 49%;
 }

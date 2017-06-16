@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come
     *after* these tags -->
-    <link rel="shortcut icon" href="assets/icon.gif" type="image/x-icon"/>
+
+<!-- Code For Title and Icon On TitleBar Of Browser -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon"/>
     <title>Friendly</title>
+
     <!--Super  Reset CSS To resetting (Remove) browsers default Property-->
     <link rel="stylesheet" type="text/css" href="stylesheet\Super_Reset.css">
+
     <!-- Bootstrap -->
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="bootstrap-3.3.7\css\bootstrap.min.css">
@@ -32,7 +36,9 @@
       <link href="https://fonts.googleapis.com/css?family=Metal+Mania|Open+Sans|Quicksand|Roboto|Tangerine" rel="stylesheet">
 
     <!--Any Other CSS and JavaScript File must Come *After*These -->
-      <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!-- Code For Our Own  Main External CSS File Link -->
+      <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+      <!-- Code For Linking in Future javascript File  -->
       <script type="text/javascript" src="js/main.js"></script>
       <style>
 
@@ -41,6 +47,9 @@
       </style>
 
   </head>
+  <!-- Head Section end Here -->
+
+  <!-- Body Of HTML File Start From Here -->
   <body>
     <!-- Our Header Starts Here -->
     <header>
@@ -54,7 +63,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a title="Friendly"class="navbar-brand" href="#"><img src="assets/logo.gif" alt="Friendly"></a>
+                    <a title="Friendly"class="navbar-brand" href="#"><img src="img/logo.png" style="width:30px;margin-top:-6px;"alt="Friendly"></a>
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,8 +75,9 @@
                       <button type="submit" class="btn btn-group-sm search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                      <li title="Vivek Kumar"><a href="#"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"></a></li>
-                      <li title="Vivek Kumar"><a href="#">Vivek</a></li>
+                      <li title="Vivek Kumar"><a href="#"><img src="img/vivek.jpg" class="img-circle ProfilePic"
+                         alt="Profile Picture"></a></li>
+                      <li title="Vivek Kumar "><a href="#"><span>Vivek</span></a></li>
                       <li class="line">|</li>
                       <li title="Home"><a href="#">Home<span class="badge Sbadge">9</span></a></li>
                       <li><span style="padding-left :20px;"></span></li>
@@ -100,15 +110,18 @@
         </header>
   <!-- header Ends Here -->
 
+
+<!-- In Main Body Left Menu Bar Start From here  -->
           <div class="container" id="wrapper">
           <div class="row">
             <div class="col-md-3">
               <div id="menu">
                 <ul class="nav nav-pills nav-stacked">
-                  <li role="presentation"><a href="#"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture">&nbsp Vivek Kumar</a></li>
+                  <li role="presentation"><a href="#"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">&nbsp Vivek Kumar</a></li>
                   <li role="presentation" class="focus"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp News Feed<span class="badge Sbadge"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></a></li>
                   <li role="presentation"><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp Messenger<span class="badge Sbadge">5</span></a></li>
                 </ul>
+                <!-- Short Cut Section Start Here -->
                 <P class="list-heading">SHORTCUTS</P>
                 <ul class="nav nav-pills nav-stacked">
                   <li role="presentation"><a href="#"><i class="fa fa-venus-double" aria-hidden="true"></i>&nbsp RIMTian's<span class="badge Sbadge">35</span></a></li>
@@ -118,6 +131,9 @@
                   <li role="presentation"><a href="#"><i class="fa fa-bank" aria-hidden="true"></i>&nbsp AcadView Front-end<span class="badge Sbadge">30</span></a></li>
                   <li role="presentation" id="more"><a href="#"><span class="caret"></span>&nbsp See More</a></li>
                 </ul>
+                <!-- Short Cut Section End Here -->
+
+                <!-- Explore Section Start Here -->
                 <p class="list-heading">EXPLORE</p>
                 <ul class="nav nav-pills nav-stacked">
                   <li role="presentation"><a href="#"><i class="fa fa-save" aria-hidden="true"></i>&nbsp Saved<span class="badge Sbadge">11</span></a></li>
@@ -127,22 +143,56 @@
                   <li role="presentation"><a href="#"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp Friend Lists<span class="badge Sbadge">637</span></a></li>
                   <li role="presentation" id="more"><a href="#"><span class="caret"></span>&nbsp See More</a></li>
                 </ul>
+                <!-- Explore Section End Here -->
+
+                <!-- Create Section Start From Here -->
                 <p class="list-heading">CREATE</p>
-                <ul class="nav nav-pills" id="screate">
+                <ul class="nav nav-pills" id="create_section">
                   <li role="presentation"><a href="#">Ad</a></li>
                   <li role="presentation"><a href="#">Page</a></li>
                   <li role="presentation"><a href="#">Group</a></li>
                   <li role="presentation"><a href="#">Event</a></li>
                 </ul>
+                <!-- Create Section Start End Here -->
               </div>
             </div>
 <!-- left navbar End Here -->
 
-<!-- Main container Start From Here -->
+<!-- In Main Body Main container Start From Here -->
             <div class="col-md-6"><div id="main">
-              <div class="panel panel-default">
+              <div class="panel panel-default" id="newpost">
+                <!-- Code For Preview Panal Header -->
                 <div class="panel-heading">
-                  <h3 class="panel-title"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
+                  <h3 class="panel-title">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Create A Post</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Photo/Video Album</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Live Video</a></li>
+                    </ul>
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <div>
+                    <h3 class="text-post"><img src="anypic.jpg" alt="Post Picture"/><input type="text" name="New Post" placeholder="Share an Update, Vivek">
+                    </h3>
+                  </div>
+                </div>
+                <div class="panel-footer">
+                  <h3 class="panel-title">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Photo/Video</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Feeling Activity</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></a></li>
+                    </ul>
+                  </h3>
+
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <!-- Code For Preview Panal Header -->
+                <div class="panel-heading">
+                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
                 </div>
                 <div class="panel-body">
                   <div>
@@ -156,7 +206,7 @@
 
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
+                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
                 </div>
                 <div class="panel-body">
                   <div>
@@ -174,11 +224,11 @@
 
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
+                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
                 </div>
                 <div class="panel-body">
                   <div class="image-post">
-                    <img src="assets\vivek.jpg" class="img-responsive img-rounded" alt="Responsive image">
+                    <img src="img\vivek.jpg" class="img-responsive img-rounded" alt="Responsive image">
                   </div>
                   <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
                   <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
@@ -189,11 +239,11 @@
 
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
+                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
                 </div>
                 <div class="panel-body">
                   <div>
-                    <img src="assets\logo2.gif" class="img-responsive img-rounded image-post" alt="Responsive image">
+                    <img src="img\logo2.gif" class="img-responsive img-rounded image-post" alt="Responsive image">
                   </div>
                   <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
                   <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
@@ -204,11 +254,11 @@
 
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
+                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
                 </div>
                 <div class="panel-body">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=Z_sX3stpB8o"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embadd/watch?v=Z_sX3stpB8o"></iframe>
                   </div>
 
                   <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
@@ -220,7 +270,7 @@
 
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><img src="assets/vivek.jpg" class="img-circle pp" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
+                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
                 </div>
                 <div class="panel-body">
                   <div>
@@ -232,6 +282,26 @@
                 <div class="panel-footer">Add a Comment...</div>
               </div>
 
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
+                </div>
+                <div class="panel-body">
+                  <div>
+                    <img src="Img\pic1.jpg" class="img-responsive postimage" alt="Post Image">
+                    <img src="Img\pic2.jpg" class="img-responsive postimage" alt="Post Image">
+                    <img src="Img\pic4.jpg" class="img-responsive postimage" alt="Post Image">
+                    <img src="Img\pic5.jpg" class="img-responsive postimage" alt="Post Image">
+                  </div>
+                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                </div>
+                <div class="panel-footer">Add a Comment...</div>
+              </div>
+
+
+
+              <button type="button" name="Load More ..."></button>
 
 
 
@@ -243,9 +313,13 @@
 
 
             </div></div>
+            <!-- In main Body Right SideBar Start Here -->
             <div class="col-md-3"><div id="sidebar"></div></div>
           </div>
         </div>
+        <!-- In main Body Right SideBar End Here -->
+
+        <!-- Footer section Start From here  -->
       <footer>
         <div class="container" id="footer">
         <ul class="nav nav-pills pull-right">
@@ -259,5 +333,8 @@
         </ul>
         <div>
       </footer>
+      <!-- Footer section End here  -->
 </body>
+<!-- Main Body End Here -->
 </html>
+<!-- HTML Document Close Here -->
