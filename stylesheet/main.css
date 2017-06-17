@@ -3,7 +3,7 @@
     background: #3b5998;
     color: white;
     font-size: 14px;
-    height: 30px;
+    height: 42px;
 }
   #header a {
       color: white;
@@ -83,15 +83,15 @@
     color: White;
   }
   #menu li:hover{
-    background: white;
+    background-color: #f6f7f9;
+    border-radius: 1px solid #dddfe2;
     color: gray;
-    border-radius: 20px;
     font-weight: bold;
   }
   .focus{
-    background: white;
-    border-radius: 20px;
-    color: gray;
+    background-color: #f6f7f9;
+    border-radius: 1px solid #dddfe2;
+    color: BLACK;
     font-weight: bold;
   }
   #menu .Sbadge{
@@ -140,25 +140,78 @@
 #main::-webkit-scrollbar {
   display: none;
 }
-#newpost ul li .glyphicon {
-    font-size: 15px;
-    padding: 5px;
-    color:#3b5998;
+#newpost ul li .fa {
+    font-size: 14px;
+    margin-right: 5px;
+    color: gray;
 }
-#newpost a:hover {
-    color: #3b5998;
-    background: White;
+#newpost ul li {
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
 }
-#newpost ul li .glyphicon:hover {
-    color:White;
+#newpost ul li a{
+    font-size: 13px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    font-weight: bold;
 }
-#newpost a:hover {
-    color: white;
-    background: #3b5998;
+#newpost input{
+  width: 450px;
+  height: 60px;
+  border: 0px;
+  margin: 5px;
+}
+.borderline{
+  border-right: 1px solid #bbbbbb;
+}
+.topborder{
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+#newpost .round{
+  border: 0px;
+  border-radius: 15px;
+  color: black;
+  background: rgb(220, 220, 220);
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#newpost .post{
+  border: 0px;
+  color: white;
+  background: #3b5998;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+#newpost .nav-tabs{
+  border: 0px;
+}
+#newpost .glyphicon{
+  font-size: 14px;
+  margin-right: 5px;
+  color: #3b5998;
+}
+#newpost img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
 }
 
 .postimage{
+  align-items: center;
   display: inline;
+  width: 49%;
+}
+.postimage:hover{
+  display: inline;
+  border: 2px solid gray;
   width: 49%;
 }
 
@@ -196,4 +249,10 @@
   color: black;
   border-radius: 3px;
   margin-top: 5px;
+}
+.loadmore{
+  padding: 8px;
+  border-radius: 5px;
+  background: #3b5998;
+  font-size: 18px;
 }
