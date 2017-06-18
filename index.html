@@ -74,16 +74,15 @@
                       </div>
                       <button type="submit" class="btn btn-group-sm search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                     </form>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" id="topnavbar">
                       <li title="Vivek Kumar"><a href="#"><img src="img/vivek.jpg" class="img-circle ProfilePic"
                          alt="Profile Picture"></a></li>
-                      <li title="Vivek Kumar "><a href="#"><span>Vivek</span></a></li>
-                      <li class="line">|</li>
-                      <li title="Home"><a href="#">Home<span class="badge Sbadge">9</span></a></li>
+                      <li title="Vivek Kumar " id="username"><a href="#"><span class="line">Vivek</span></a></li>
+                      <li title="Home"><a href="#">Home</a></li>
                       <li><span style="padding-left :20px;"></span></li>
-                      <li title="Friends"><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
-                      <li title="Massage"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
-                      <li title="Notifications"><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+                      <li title="Friends"><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="badge topbadge">23</span></a></li>
+                      <li title="Massage"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class="badge topbadge">2</span></a></li>
+                      <li title="Notifications"><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span class="badge topbadge">7</span></a></li>
                       <li><span style="padding-left :10px;"></span></li>
                       <li title="Help"><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
                       <li class="dropdown">
@@ -107,6 +106,9 @@
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
                 </nav>
+
+
+
         </header>
   <!-- header Ends Here -->
 
@@ -160,10 +162,10 @@
 
 <!-- In Main Body Main container Start From Here -->
             <div class="col-md-6"><div id="main">
+
+              <!-- New Post Create CodeHere -->
               <div class="panel panel-default" id="newpost">
                 <!-- Code For Preview Panal Header -->
-
-                <!-- New Post Create CodeHere -->
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <ul class="nav nav-tabs">
@@ -188,119 +190,363 @@
                           <li style="float: right;"><a href="#" class="post">Post</a></li>
                     </ul>
                   </h3>
-
                 </div>
               </div>
 
-              <div class="panel panel-default">
-                <!-- Code For Preview Panal Header -->
-                <div class="panel-heading">
-                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
-                </div>
-                <div class="panel-body">
-                  <div>
-                    <h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3>
-                  </div>
-                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-                </div>
-                <div class="panel-footer">Add a Comment...</div>
-              </div>
 
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
-                </div>
-                <div class="panel-body">
-                  <div>
-                      <blockquote>
-                        <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
-                        <footer>Walter Scott</footer>
-                      </blockquote>
-                  </div>
-                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-                </div>
-                <div class="panel-footer">Add a Comment...</div>
-              </div>
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
 
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div>
+                                  <h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3>
 
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
-                </div>
-                <div class="panel-body">
-                  <div class="image-post">
-                    <img src="img\vivek.jpg" class="img-responsive img-rounded" alt="Responsive image">
-                  </div>
-                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-                </div>
-                <div class="panel-footer">Add a Comment...</div>
-              </div>
+                                </div>
+                                <!-- post body end here -->
 
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
 
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
-                </div>
-                <div class="panel-body">
-                  <div>
-                    <img src="img\logo2.gif" class="img-responsive img-rounded image-post" alt="Responsive image">
-                  </div>
-                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-                </div>
-                <div class="panel-footer">Add a Comment...</div>
-              </div>
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
 
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
 
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
-                </div>
-                <div class="panel-body">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ja5o6dCAfOY" frameborder="0" allowfullscreen></iframe>">
-                  </div>
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div>
+                                  <!-- google Map Start From Here -->
+                                                    <div id="map"></div>
+                                                             <script>
+                                                               function initMap() {
+                                                                 var uluru = {lat: 28.631195, lng: 77.222053};
+                                                                 var map = new google.maps.Map(document.getElementById('map'), {
+                                                                   zoom: 7,
+                                                                   center: uluru
+                                                                 });
+                                                                 var marker = new google.maps.Marker({
+                                                                   position: uluru,
+                                                                   map: map
+                                                                 });
+                                                               }
+                                                             </script>
+                                                             <script async defer
+                                                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVKMKV_duSAYgmuKXOr6X9jHOEVDRTpYQ&callback=initMap">
+                                                             </script>
+                                      <!-- google Map EndHere -->
+                                </div>
+                                <!-- post body end here -->
 
-                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-                </div>
-                <div class="panel-footer">Add a Comment...</div>
-              </div>
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
 
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
 
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
-                </div>
-                <div class="panel-body">
-                  <div>
-                    <h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3>
-                  </div>
-                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-                </div>
-                <div class="panel-footer">Add a Comment...</div>
-              </div>
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
 
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar</a></h3>
-                </div>
-                <div class="panel-body">
-                  <div>
-                    <a href=""><img src="Img\Beautiful Quotes Wallpapers (1).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
-                    <a href=""><img src="Img\Beautiful Quotes Wallpapers (2).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
-                    <a href=""><img src="Img\Beautiful Quotes Wallpapers (4).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
-                    <a href=""><img src="Img\Beautiful Quotes Wallpapers (5).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
-                  </div>
-                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-                </div>
-                <div class="panel-footer">Add a Comment...</div>
-              </div>
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div>
+                                    <blockquote>
+                                      <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
+                                      <footer>Walter Scott</footer>
+                                    </blockquote>
+                                </div>
+                                <!-- post body end here -->
+
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
+
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
+
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
+
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div>
+                                  <a href=""><img src="Img\Beautiful Quotes Wallpapers (1).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
+                                  <a href=""><img src="Img\Beautiful Quotes Wallpapers (2).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
+                                  <a href=""><img src="Img\Beautiful Quotes Wallpapers (4).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
+                                  <a href=""><img src="Img\Beautiful Quotes Wallpapers (5).jpg" class="img-responsive postimage img-thumbnail" alt="Post Image"></a>
+                                </div>
+                                <!-- post body end here -->
+
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
+
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
+
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
+
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div>
+                                    <blockquote>
+                                      <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
+                                      <footer>Walter Scott</footer>
+                                    </blockquote>
+                                </div>
+                                <!-- post body end here -->
+
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
+
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
+
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
+
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div>
+                                    <blockquote>
+                                      <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
+                                      <footer>Walter Scott</footer>
+                                    </blockquote>
+                                </div>
+                                <!-- post body end here -->
+
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
+
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
+
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
+
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ja5o6dCAfOY" frameborder="0" allowfullscreen></iframe>">
+                                </div>
+                                <!-- post body end here -->
+
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
+
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
+
+<!-- Current post are started from here -->
+                            <div class="panel panel-default">
+                              <!-- post header start From here -->
+                              <div class="panel-heading">
+                                <h3 class="panel-title"><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"> &nbsp<a href="#">Vivek kumar<i class="fa fa-chevron-down" style="float:right; color:rgb(191, 191, 191);"aria-hidden="true"></i></a><br><small>june 12 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><i class="fa fa-caret-down" style="padding:4px;" aria-hidden="true"></i></small></h3>
+                              </div>
+                              <!-- post header End Here -->
+
+                              <!-- post body Start From Here -->
+                              <div class="panel-body">
+                                <div>
+                                  <div class="image-post">
+                                    <img src="img\vivek.jpg" class="img-responsive img-rounded" alt="Responsive image">
+                                  </div>
+                                </div>
+                                <!-- post body end here -->
+
+                                <!-- post footer Start here -->
+                                <div class="panel-title topborder">
+                                <span> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a></span>
+                                <span><a href=""><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></span>
+                                <span><a href=""><i class="fa fa-share" aria-hidden="true"></i>Share</a></span>
+                              </div>
+                            </div>
+
+                            <div class="panel-footer">
+                              <h5><i class="fa fa-thumbs-up" style="color:white; background:#278ada; padding:5px; margin-right:5px; border-radius:50%;" aria-hidden="true"></i>Subham Singh Rajput, Gaurav Kumar and 6 others<span style="float:right">Top Comments<span class="caret"></span></span></h5>
+                            <div>
+                            <ul>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture">
+                              <input type="text" class="Commentbox"name="" value="" placeholder="Add a Comment..." style="padding-left:5px;"></li>
+                              <!-- all Comment Written here -->
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                              <li><img src="img/vivek.jpg" class="img-circle ProfilePic" alt="Profile Picture"><a href="">Vivek Kumar</a> Nice Line<br><small style="font-size:12px;"><a href="" >Like</a><a href="">Reply</a>2 hrs</small></li>
+                            </ul>
+                            </div>
+                            </div>
+                            <!-- post footer End here -->
+                          </div>
+<!-- current post End Here -->
+
 
 
 
@@ -333,7 +579,7 @@
                       <li role="presentation" class="active"><a href="#TopTrends" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-bar-chart-o" aria-hidden="true"></i></a></li>
                       <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-bank" aria-hidden="true"></i></a></li>
                       <li role="presentation"><a href="#Science" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-rocket" aria-hidden="true"></i></a></li>
-                      <li role="presentation"><a href="#Sport" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-street-view" aria-hidden="true"></i></a></li>
+                      <li role="presentation"><a href="#Sport" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-soccer-ball-o" aria-hidden="true"></i></a></li>
                       <li role="presentation"><a href="#Entertainment" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a></li>
                     </ul>
                   </div>

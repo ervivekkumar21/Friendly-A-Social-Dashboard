@@ -1,3 +1,4 @@
+
 /*Css For header Part of Website*/
 #header {
     background: #3b5998;
@@ -172,7 +173,6 @@
   height: 60px;
   border: 0px;
   margin: 5px;
-  font-size: 15px;
 }
 .borderline{
   border-right: 1px solid #bbbbbb;
@@ -239,20 +239,6 @@ small{
   padding-right: 5px;
   font-size: 15px;
 }
-.Commentbox{
-  width: 90%;
-  height: 30px;
-}
-small a{
-  margin: -5px 5px;
-
-}
-.panel-footer small{
-  margin-top: -12px;
-}
-.panel-footer img{
-  margin: 5px;
-}
 #tranding #rightsideicon{
   padding: 0px;
   color: #3b5998;
@@ -293,19 +279,4 @@ small a{
 height: 300px;
 width: 100%;
 border-radius: 15px;
-}
-/*css for new post*/
-.panel-default .fa{
-  font-size: 14px;
-  padding: 0 5px 0 15px;
-}
-.topborder a{
-  text-decoration: none;
-  color: black;
-}
-.panel .panel-heading{
-  background: white;
-  border: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 0px
 }
