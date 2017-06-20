@@ -53,6 +53,7 @@
     border-radius: 0px;
     border-radius: 0 2px 2px 0;
   }
+  
   #topnavbar .topbadge{
     position: absolute;
     left: 25px;
@@ -70,11 +71,15 @@
     margin-top: 16px;
     margin-bottom: 16px;
   }
-  #main,
   #menu,
   #sidebar {
     height: 600px;
     background-color: #e9ebdd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  #main{
+    height: 600px;
     border-radius: 5px;
     padding: 10px;
   }
