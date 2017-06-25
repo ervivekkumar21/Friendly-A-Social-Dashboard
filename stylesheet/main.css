@@ -81,7 +81,7 @@
     padding: 10px;
   }
   #main{
-    position: absolute;
+    position: relative;
     top: 42px;
     height: 600px;
     border-radius: 5px;
