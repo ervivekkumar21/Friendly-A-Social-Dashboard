@@ -53,7 +53,7 @@
     border-radius: 0px;
     border-radius: 0 2px 2px 0;
   }
-  
+
   #topnavbar .topbadge{
     position: absolute;
     left: 25px;
@@ -73,12 +73,16 @@
   }
   #menu,
   #sidebar {
+    position: absolute;
+    top: 48px;
     height: 600px;
     background-color: #e9ebdd;
     border-radius: 5px;
     padding: 10px;
   }
   #main{
+    position: absolute;
+    top: 42px;
     height: 600px;
     border-radius: 5px;
     padding: 10px;
@@ -238,6 +242,7 @@ small{
   padding: 10px;
   display: block;
   background: white;
+  margin-top: -5px;
   border-radius: 3px;
 }
 .rightside .fa {
