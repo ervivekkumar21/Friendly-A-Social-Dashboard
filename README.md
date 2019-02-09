@@ -1,4 +1,4 @@
-# Friendly – A Social Media Dashboard
+# Facebook-Frontend-Redesign
 This Project I Have Basically Tried to Make a Social Media Dashboard in Which Everything Looks Like Same as Facebook And Some Changes Are Made Which I Personally Want to See On Facebook Which Can Improve the User Experience in Different Manners.
 ### Project Remarkable Features: -
 - On Top a Header with The Same Look as Facebook With Icons and Badges Like Facebook.
@@ -14,4 +14,4 @@ This Project I Have Basically Tried to Make a Social Media Dashboard in Which Ev
 * ###### Bootstrap
 * ###### Font-Awesome
 
-#### This Repository is hosted at https://vk04190.github.io/Friendly-A-Social-Dashboard/
+#### This Repository is hosted at https://vk04190.github.io/Facebook-Frontend-Redesign/
