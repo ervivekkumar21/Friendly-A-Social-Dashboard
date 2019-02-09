@@ -14,4 +14,4 @@ This Project I Have Basically Tried to Make a Social Media Dashboard in Which Ev
 * ###### Bootstrap
 * ###### Font-Awesome
 
-#### This Repository is hosted at https://ervivekkumar21.github.io/Friendly-A-Social-Dashboard/
+#### This Repository is hosted at https://vk04190.github.io/Friendly-A-Social-Dashboard/
